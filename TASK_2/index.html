@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <style>
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9; /* HEX */
+        }
+
+        h2 {
+            color: rgb(44, 62, 80); /* RGB */
+            border-bottom: 2px solid #6c63ff;
+            padding-bottom: 5px;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+
+        #main-heading {
+            background-color: #6c63ff;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin: 0;
+        }
+
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgb(0, 0, 0);
+        }
+
+    
+        .skills li {
+            background-color: #e8e6ff;
+            margin: 8px;
+            padding: 10px;
+            border-radius: 5px;
+            list-style-type: none;
+        }
+
+        
+        .movies {
+            background-color: rgb(230, 240, 255);
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .movies li {
+            padding:8px;
+            color: #333;
+        }
+
+        
+        .cities {
+            background-color: #fff3cd;
+            padding: 20px;
+            border-radius: 10px;
+            list-style-type: square;
+        }
+
+        .cities li {
+            padding: 8px;
+        }
+
+        /* Pseudo-class */
+        li:hover {
+            background-color: #dfe6e9;
+            cursor: pointer;
+            transform: scale(1.02);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Link Pseudo-class */
+        a:hover {
+            color: #6c63ff;
+        }
+
+        /* Cascading Styles */
+        li {
+            color: black;
+        }
+
+        .skills li {
+            color: #6c63ff;
+        }
+
+        #main-heading:hover {
+            background-color: rgb(80, 70, 200);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="main-heading">About Me</h1>
+
+    <div class="container">
+
+        <!-- About Me -->
+        <div class="card">
+            <h2>Hello! I'm Dipanshi Jain 👋</h2>
+            <p>
+                I am a Computer Science Engineering student who is passionate
+                about technology, programming, and learning new skills.
+                I enjoy exploring web development and solving coding problems.
+            </p>
+        </div>
+
+        
+        <div class="card">
+            <h2>My Hobbies</h2>
+            <ul class="skills">
+                <li> # Coding and Problem Solving</li>
+                <li> # Learning New Technologies</li>
+                <li> # Designing Creative Projects</li>
+                <li> # Listening to Music</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>My Creative & Technical Skills</h2>
+            <ul class="skills">
+                <li>HTML & CSS</li>
+                <li>Java Programming</li>
+                <li>Problem Solving</li>
+                <li>Creative Designing</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>My Favorite Movies</h2>
+            <ol class="movies">
+                <li>Hichki</li>
+                <li>Mission Mangal</li>
+                <li>Dangal</li>
+                <li>Chhichhore</li>
+            </ol>
+        </div>
+
+        <div class="card">
+            <h2>My Favorite Cities</h2>
+            <ul class="cities">
+                <li>Agra</li>
+                <li>Gurgaon</li>
+                <li>Jaipur</li>
+                <li>Mumbai</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
